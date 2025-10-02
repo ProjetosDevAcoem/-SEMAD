@@ -1,0 +1,248 @@
+[
+	{
+		"Element": "Battery",
+		"Units": "%",
+		"Type": "Device",
+		"Description": "Percentage of battery of the device"
+	},
+	{
+		"Element": "Battery_V",
+		"Units": "V",
+		"Type": "Device",
+		"Description": "Voltage of the battery of the device"
+	},
+	{
+		"Element": "Charge",
+		"Units": "V",
+		"Type": "Device",
+		"Description": "Power of the charger of the device"
+	},
+	{
+		"Element": "Signal",
+		"Units": "dBm",
+		"Type": "Device",
+		"Description": "The coverage of the device"
+	},
+	{
+		"Element": "GNSS Lat",
+		"Units": "deg",
+		"Type": "Device",
+		"Description": "Latitude"
+	},
+	{
+		"Element": "GNSS Lon",
+		"Units": "deg",
+		"Type": "Device",
+		"Description": "Longitude"
+	},
+	{
+		"Element": "GNSS Alt",
+		"Units": "m",
+		"Type": "Device",
+		"Description": "Altitude"
+	},
+	{
+		"Element": "GNSS Speed",
+		"Units": "km/h",
+		"Type": "Device",
+		"Description": "Speed"
+	},
+	{
+		"Element": "Temp ext",
+		"Units": "C",
+		"Type": "Environmental",
+		"Description": "Temperature value"
+	},
+	{
+		"Element": "Humidity ext",
+		"Units": "%",
+		"Type": "Environmental",
+		"Description": "Humidity value"
+	},
+	{
+		"Element": "Pressure",
+		"Units": "hPa",
+		"Type": "Environmental",
+		"Description": "Pressure value"
+	},
+	{
+		"Element": "Dew Point",
+		"Units": "C",
+		"Type": "Environmental",
+		"Description": "Dew Point"
+	},
+	{
+		"Element": "W Speed AVG",
+		"Units": "Km/h",
+		"Type": "Environmental",
+		"Description": "Value of mean wind speed"
+	},
+	{
+		"Element": "W Speed MAX",
+		"Units": "Km/h",
+		"Type": "Environmental",
+		"Description": "Maximum wind speed value"
+	},
+	{
+		"Element": "W Vane AVG",
+		"Units": "deg",
+		"Type": "Environmental",
+		"Description": "Wind direction value"
+	},
+	{
+		"Element": "Solar rad",
+		"Units": "W/m2",
+		"Type": "Environmental",
+		"Description": "Solar radiation value"
+	},
+	{
+		"Element": "UV-A rad",
+		"Units": "W/m2",
+		"Type": "Environmental",
+		"Description": "UV-A radiation value"
+	},
+	{
+		"Element": "UV Index",
+		"Units": "",
+		"Type": "Environmental",
+		"Description": "Ultraviolet index value"
+	},
+	{
+		"Element": "Rainfall",
+		"Units": "mm",
+		"Type": "Environmental",
+		"Description": "Rainfall value"
+	},
+	{
+		"Element": "LAeq",
+		"Units": "dB(A)",
+		"Type": "Environmental",
+		"Description": "Noise value"
+	},
+	{
+		"Element": "CO GCc",
+		"Units": "ppb",
+		"Type": "Gas Cartridge",
+		"Description": "CO concentration"
+	},
+	{
+		"Element": "CO2 GCc",
+		"Units": "ppm",
+		"Type": "Gas Cartridge",
+		"Description": "CO2 concentration"
+	},
+	{
+		"Element": "NO GCc",
+		"Units": "ppb",
+		"Type": "Gas Cartridge",
+		"Description": "NO concentration"
+	},
+	{
+		"Element": "NO2 GCc",
+		"Units": "ppb",
+		"Type": "Gas Cartridge",
+		"Description": "NO2 concentration"
+	},
+	{
+		"Element": "NOx GCc",
+		"Units": "ppb",
+		"Type": "Gas Cartridge",
+		"Description": "NOx concentration"
+	},
+	{
+		"Element": "O3 GCc",
+		"Units": "ppb",
+		"Type": "Gas Cartridge",
+		"Description": "O3 concentration"
+	},
+	{
+		"Element": "SO2 GCc",
+		"Units": "ppb",
+		"Type": "Gas Cartridge",
+		"Description": "SO2 concentration"
+	},
+	{
+		"Element": "H2S GCc",
+		"Units": "ppb",
+		"Type": "Gas Cartridge",
+		"Description": "H2S concentration"
+	},
+	{
+		"Element": "NH3 GCc",
+		"Units": "ppm",
+		"Type": "Gas Cartridge",
+		"Description": "NH3 concentration"
+	},
+	{
+		"Element": "VOCs GCc",
+		"Units": "ppm",
+		"Type": "Gas Cartridge",
+		"Description": "VOCs concentration"
+	},
+	{
+		"Element": "HCl GCc",
+		"Units": "ppm",
+		"Type": "Gas Cartridge",
+		"Description": "HCl concentration"
+	},
+	{
+		"Element": "CH4 GCc",
+		"Units": "ppm",
+		"Type": "Gas Cartridge",
+		"Description": "CH4 concentration"
+	},
+	{
+		"Element": "NMHC GCc",
+		"Units": "ppb",
+		"Type": "Gas Cartridge",
+		"Description": "NMHC concentration"
+	},
+	{
+		"Element": "HCN GCc",
+		"Units": "ppm",
+		"Type": "Gas Cartridge",
+		"Description": "HCN concentration"
+	},
+	{
+		"Element": "O2 GCc",
+		"Units": "%",
+		"Type": "Gas Cartridge",
+		"Description": "O2 concentration"
+	},
+	{
+		"Element": "PM1",
+		"Units": "ug/m3",
+		"Type": "Particle sensor",
+		"Description": "PM1 value in ug/m3"
+	},
+	{
+		"Element": "PM2.5",
+		"Units": "ug/m3",
+		"Type": "Particle sensor",
+		"Description": "PM2.5 value in ug/m3"
+	},
+	{
+		"Element": "PM4",
+		"Units": "ug/m3",
+		"Type": "Particle sensor",
+		"Description": "PM4 value in ug/m3"
+	},
+	{
+		"Element": "PM10",
+		"Units": "ug/m3",
+		"Type": "Particle sensor",
+		"Description": "PM10 value in ug/m3"
+	},
+	{
+		"Element": "TPC",
+		"Units": "counts/cm3",
+		"Type": "Particle sensor",
+		"Description": "Total Particle Counter"
+	},
+	{
+		"Element": "TSP",
+		"Units": "ug/m3",
+		"Type": "Particle sensor",
+		"Description": "Total Suspended Particles"
+	}
+]
