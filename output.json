@@ -1,0 +1,106 @@
+{
+    "Station": "ECQ008-22",
+    "Date": "09/10/2025",
+    "Time": "11:00:00",
+    "Timestamp": 1759928426,
+    "Data": [
+        {
+            "Element": "O3 GCc",
+            "Value": 11.79,
+            "Units": "ppb",
+            "Type": "Gas Cartridge",
+            "Description": "Concentração de ozônio (O3)"
+        },
+        {
+            "Element": "CO GCc",
+            "Value": 3.05,
+            "Units": "ppm",
+            "Type": "Gas Cartridge",
+            "Description": "Concentração de monóxido de carbono (CO)"
+        },
+        {
+            "Element": "NO2 GCc",
+            "Value": 6.01,
+            "Units": "ppb",
+            "Type": "Gas Cartridge",
+            "Description": "Concentração de dióxido de nitrogênio (NO2)"
+        },
+        {
+            "Element": "SO2 GCc",
+            "Value": 6.01,
+            "Units": "ppb",
+            "Type": "Gas Cartridge",
+            "Description": "Concentração de dióxido de enxofre (SO2)"
+        },
+        {
+            "Element": "VOCs GCc",
+            "Value": 0.2,
+            "Units": "ppm",
+            "Type": "Gas Cartridge",
+            "Description": "Concentração de compostos orgânicos voláteis (VOCs)"
+        },
+        {
+            "Element": "PM2.5",
+            "Value": 704.31,
+            "Units": "ug/m3",
+            "Type": "Particle sensor",
+            "Description": "Partículas finas (PM2.5)"
+        },
+        {
+            "Element": "PM10",
+            "Value": 750.55,
+            "Units": "ug/m3",
+            "Type": "Particle sensor",
+            "Description": "Partículas inaláveis (PM10)"
+        },
+        {
+            "Element": "LAeq",
+            "Value": -9999,
+            "Units": "dB(A)",
+            "Type": "Environmental",
+            "Description": "Nível de ruído (valor máximo medido)"
+        },
+        {
+            "Element": "Temp ext",
+            "Value": 29.42,
+            "Units": "°C",
+            "Type": "Environmental",
+            "Description": "Temperatura do ar"
+        },
+        {
+            "Element": "Humidity ext",
+            "Value": 64.12,
+            "Units": "%",
+            "Type": "Environmental",
+            "Description": "Umidade relativa do ar"
+        },
+        {
+            "Element": "Pressure",
+            "Value": 926.3,
+            "Units": "hPa",
+            "Type": "Environmental",
+            "Description": "Pressão atmosférica"
+        },
+        {
+            "Element": "Rainfall",
+            "Value": 0.0,
+            "Units": "mm",
+            "Type": "Environmental",
+            "Description": "Precipitação acumulada"
+        },
+        {
+            "Element": "W Speed AVG",
+            "Value": 0.0,
+            "Units": "m/s",
+            "Type": "Environmental",
+            "Description": "Velocidade média do vento"
+        },
+        {
+            "Element": "W Vane AVG",
+            "Value": 0.0,
+            "Units": "°",
+            "Type": "Environmental",
+            "Description": "Direção média do vento"
+        }
+    ]
+}
