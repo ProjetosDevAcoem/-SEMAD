@@ -2,12 +2,12 @@
 	"Station": "ECQ008-22",
 	"Date": "2025-10-08",
 	"Time": "10:00:00",
-	"Timestamp": 1759928425,
+	"Timestamp": "timestmap",
 	"Data": [
 		{
 			"Element": "O3_Avg",
 			"Translated_Element": "O3 GCc",
-			"Value": 11.79,
+			"Value": "value",
 			"Units": "ppb",
 			"Type": "Gas Cartridge",
 			"Description": "Concentração de ozônio (O3)"
@@ -15,7 +15,7 @@
 		{
 			"Element": "CO_Avg",
 			"Translated_Element": "CO GCc",
-			"Value": 3.05,
+			"Value": "value",
 			"Units": "ppm",
 			"Type": "Gas Cartridge",
 			"Description": "Concentração de monóxido de carbono (CO)"
@@ -23,7 +23,7 @@
 		{
 			"Element": "NO2_Avg",
 			"Translated_Element": "NO2 GCc",
-			"Value": 6.01,
+			"Value": "value",
 			"Units": "ppb",
 			"Type": "Gas Cartridge",
 			"Description": "Concentração de dióxido de nitrogênio (NO2)"
@@ -31,7 +31,7 @@
 		{
 			"Element": "SO2_Avg",
 			"Translated_Element": "SO2 GCc",
-			"Value": 6.01,
+			"Value": "value",
 			"Units": "ppb",
 			"Type": "Gas Cartridge",
 			"Description": "Concentração de dióxido de enxofre (SO2)"
@@ -39,7 +39,7 @@
 		{
 			"Element": "VOC_Avg",
 			"Translated_Element": "VOCs GCc",
-			"Value": 0.20,
+			"Value": "value",
 			"Units": "ppm",
 			"Type": "Gas Cartridge",
 			"Description": "Concentração de compostos orgânicos voláteis (VOCs)"
@@ -47,7 +47,7 @@
 		{
 			"Element": "PM2.5_Avg",
 			"Translated_Element": "PM2.5",
-			"Value": 704.31,
+			"Value": "value",
 			"Units": "ug/m3",
 			"Type": "Particle sensor",
 			"Description": "Partículas finas (PM2.5)"
@@ -55,7 +55,7 @@
 		{
 			"Element": "PM10_Avg",
 			"Translated_Element": "PM10",
-			"Value": 750.55,
+			"Value": "value",
 			"Units": "ug/m3",
 			"Type": "Particle sensor",
 			"Description": "Partículas inaláveis (PM10)"
@@ -63,7 +63,7 @@
 		{
 			"Element": "Noise_Max",
 			"Translated_Element": "LAeq",
-			"Value": -9999,
+			"Value": "value",
 			"Units": "dB(A)",
 			"Type": "Environmental",
 			"Description": "Nível de ruído (valor máximo medido)"
@@ -71,7 +71,7 @@
 		{
 			"Element": "AirTemp_Avg",
 			"Translated_Element": "Temp ext",
-			"Value": 29.42,
+			"Value": "value",
 			"Units": "°C",
 			"Type": "Environmental",
 			"Description": "Temperatura do ar"
@@ -79,7 +79,7 @@
 		{
 			"Element": "RelUmid_Avg",
 			"Translated_Element": "Humidity ext",
-			"Value": 64.12,
+			"Value": "value",
 			"Units": "%",
 			"Type": "Environmental",
 			"Description": "Umidade relativa do ar"
@@ -87,7 +87,7 @@
 		{
 			"Element": "PressAtm_Avg",
 			"Translated_Element": "Pressure",
-			"Value": 926.30,
+			"Value": "value",
 			"Units": "hPa",
 			"Type": "Environmental",
 			"Description": "Pressão atmosférica"
@@ -95,7 +95,7 @@
 		{
 			"Element": "Rain_Total",
 			"Translated_Element": "Rainfall",
-			"Value": 0.00,
+			"Value": "value",
 			"Units": "mm",
 			"Type": "Environmental",
 			"Description": "Precipitação acumulada"
@@ -103,7 +103,7 @@
 		{
 			"Element": "WindSpeed_Avg",
 			"Translated_Element": "W Speed AVG",
-			"Value": 0.00,
+			"Value": "value",
 			"Units": "m/s",
 			"Type": "Environmental",
 			"Description": "Velocidade média do vento"
@@ -111,7 +111,7 @@
 		{
 			"Element": "WindDirection_ResAvg",
 			"Translated_Element": "W Vane AVG",
-			"Value": 0.00,
+			"Value": "value",
 			"Units": "°",
 			"Type": "Environmental",
 			"Description": "Direção média do vento"

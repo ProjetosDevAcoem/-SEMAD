@@ -1,64 +1,77 @@
 import json
 
-# Arquivo TXT contendo os dados
+# Arquivos
 txt_file = "dados.txt"
-# JSON de referência com Translated_Element
 json_file = "translate.json"
-# Arquivo de saída
 output_file = "output.json"
 
-# Lê o JSON de referência
+# 1️⃣ Lê o JSON de referência (apenas para metadados)
 with open(json_file, "r", encoding="utf-8") as f:
-    dados_json = json.load(f)
+    ref_json = json.load(f)
 
-# Lê o arquivo TXT e transforma em lista
+# Cria um dicionário para acessar Type e Description pelo Element do TXT
+meta_dict = {}
+if "Data" in ref_json:
+    for item in ref_json["Data"]:
+        key = item["Element"]  # pega o Element original que corresponde ao TXT
+        meta_dict[key] = {
+            "Type": item.get("Type", ""),
+            "Description": item.get("Description", "")
+        }
+
+# 2️⃣ Lê o TXT
 with open(txt_file, "r", encoding="utf-8") as f:
     conteudo = f.read().strip()
 
-# Divide os dados pelo separador ";"
 valores = conteudo.split(";")
 
-# Extrai informações fixas do TXT
+# 3️⃣ Extrai informações fixas do TXT
 station = valores[0]
 date = valores[1]
 time = valores[2]
 timestamp = int(valores[3])
 
-# Monta um dicionário de dados do TXT (nome -> valor)
-txt_dict = {}
+# 4️⃣ Monta lista de dados combinando TXT + metadados do JSON
+data_list = []
 i = 4  # começa depois de station, date, time, timestamp
-while i + 1 < len(valores):  # garante que i e i+1 existem
-    chave = valores[i]
-    valor = valores[i + 1]
-    # tenta converter para float se possível
+while i + 1 < len(valores):
+    chave = valores[i]                     # nome do elemento do TXT
+    valor = valores[i + 1]                 # valor do TXT
+    unidade = valores[i + 2] if i + 2 < len(valores) else ""
+
+    # Converte para float se possível
     try:
         valor = float(valor)
     except ValueError:
         pass
-    txt_dict[chave] = valor
-    i += 3  # pula a unidade
 
+    # Busca metadados do JSON de referência
+    meta = meta_dict.get(chave, {})
+    tipo = meta.get("Type", "")
+    descricao = meta.get("Description", "")
 
-# Atualiza o JSON de referência
-if "Data" in dados_json:
-    for item in dados_json["Data"]:
-        # Substitui Translated_Element por Element
-        if "Translated_Element" in item:
-            item["Element"] = item["Translated_Element"]
-            del item["Translated_Element"]
-        # Atualiza o Value se o nome existir no TXT
-        key = item["Element"]
-        if key in txt_dict:
-            item["Value"] = txt_dict[key]
+    # Adiciona ao data_list
+    data_list.append({
+        "Element": chave,
+        "Value": valor,
+        "Units": unidade,
+        "Type": tipo,
+        "Description": descricao
+    })
 
-# Adiciona informações fixas
-dados_json["Station"] = station
-dados_json["Date"] = date
-dados_json["Time"] = time
-dados_json["Timestamp"] = timestamp
+    i += 3  # pula para o próximo conjunto
 
-# Salva o JSON final
+# 5️⃣ Monta JSON final
+json_final = {
+    "Station": station,
+    "Date": date,
+    "Time": time,
+    "Timestamp": timestamp,
+    "Data": data_list
+}
+
+# 6️⃣ Salva JSON final
 with open(output_file, "w", encoding="utf-8") as f:
-    json.dump(dados_json, f, indent=4, ensure_ascii=False)
+    json.dump(json_final, f, indent=4, ensure_ascii=False)
 
 print(f"JSON gerado com sucesso: {output_file}")
