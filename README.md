@@ -4,5 +4,3 @@
 - [x] 2 - Transformar dados da API elements.xlsx em .json
 - [x] 3 - Transformar dados para padrão Kunak
 - [ ] 4 - Aguardando conta para inserir os dados no KunakCloud
-
- Aguardar o envio do manual kunak cloud API - Erick
