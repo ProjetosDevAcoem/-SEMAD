@@ -1,0 +1,1 @@
+ECQ013-22;10/10/2025;16:00:00;1760108405;IntTemp_Avg;58.03;°C;O3_Avg;11.93;ppb;CO_Avg;0.35;ppm;NO2_Avg;16.88;ppb;SO2_Avg;6.34;ppb;VOC_Avg;0.20;ppm;PM2.5_Avg;6.18;ug/m3;PM10_Avg;14.59;ug/m3;Noise_Max;62.00;dB;AirTemp_Avg;35.31;°C;RelUmid_Avg;37.92;%;PressAtm_Avg;926.87;hPa;Rain_Total;0.00;mm;WindSpeed_Avg;0.02;m/s;WindDirection_ResAvg;331.62;°;

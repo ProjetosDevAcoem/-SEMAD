@@ -2,7 +2,7 @@ import json
 import requests
 
 # === CONFIGURAÇÕES DA API ===
-DEVICE_ID = "4225410056"
+DEVICE_ID = "4225410057"
 API_URL = f"https://kunakcloud.com/openAPIv0/v1/rest/devices/{DEVICE_ID}/elements/insert"
 API_USERNAME = "semad_adm"
 API_PASSWORD = "Cimear@2025"
