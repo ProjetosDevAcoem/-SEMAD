@@ -1,0 +1,18 @@
+{
+    ‘tag’: ‘Element 1’,
+    ‘unit’: ‘m’,
+    "type_id": 1,
+    ‘manufacturer’ : ‘manufacturer 1’,
+    "serial_number": ‘0123456789’ ,
+    ‘model": ‘km1’,
+    "decimal_places": 6,
+    "sampling_period ": 900,
+    "start_time": "00:00:00",
+    "end_time": "23:59:59",
+    "max": ""*,
+    "min": ""*,
+    "persistence": 9,
+    "x0": "0.0",
+    "x1": "1.0",
+    "x2": "0.0"
+}
