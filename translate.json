@@ -83,7 +83,8 @@
             "Units": "dB",
             "Type": "Environmental",
             "Description": "Nível de ruído (valor máximo medido)",
-            "decimal_places": 1
+            "decimal_places": 1,
+            "commented": true
         },
         {
             "Element": "AirTemp_Avg",
@@ -92,7 +93,8 @@
             "Units": "°C",
             "Type": "Environmental",
             "Description": "Temperatura do ar",
-            "decimal_places": 1
+            "decimal_places": 1,
+            "commented": true
         },
         {
             "Element": "RelUmid_Avg",
@@ -115,7 +117,7 @@
         {
             "Element": "Rain_Total",
             "Translated_Element": "Rainfall",
-            "Value": "",
+            "Value": "0.00",
             "Units": "mm",
             "Type": "Environmental",
             "Description": "Precipitação acumulada",
@@ -124,7 +126,7 @@
         {
             "Element": "WindSpeed_Avg",
             "Translated_Element": "W Speed AVG",
-            "Value": "",
+            "Value": "0.00",
             "Units": "m/s",
             "Type": "Environmental",
             "Description": "Velocidade média do vento",
@@ -133,7 +135,7 @@
         {
             "Element": "WindDirection_ResAvg",
             "Translated_Element": "W Vane AVG",
-            "Value": "",
+            "Value": "0.00",
             "Units": "°",
             "Type": "Environmental",
             "Description": "Direção média do vento",
